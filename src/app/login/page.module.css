@@ -1,0 +1,84 @@
+
+
+.userPage{
+    background-color: #fff;
+    padding: 60px 0;
+    color: #000;
+}
+
+.conatiner{
+    max-width: 13rem;
+    margin: 0 auto;
+     background-color: #f6f6f6;
+}
+.userPage_inner{
+    max-width: 550px;
+    margin: 0 auto;
+    width: 100%;
+   
+    padding: 5%;
+}
+.userPage_title{
+    margin-bottom: 28px;
+    color: #1a1a1a;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+.fromGrp{
+    margin-bottom: 20px;
+    color: #fff;
+      color: #1a1a1a;
+}
+
+.formControl{
+    color: #1a1a1a;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.label{
+    display: block;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.button{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-family: Jost, Sans-serif;
+    box-shadow: none;
+    text-decoration: none;
+    flex-direction: row;
+    position: relative;
+    background-color: #FE6A13;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    transition: all .3s linear;
+    z-index: 1;
+    color: #fff;
+    border: 2px solid #FE6A13;
+    cursor: pointer;
+}
+
+.link{
+    color: #FE6A13;
+}
+
+.buttonDis{
+        cursor: not-allowed;
+    opacity: 0.5;
+}

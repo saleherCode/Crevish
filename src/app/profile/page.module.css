@@ -1,0 +1,24 @@
+button{
+        display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-family: Jost, Sans-serif;
+    box-shadow: none;
+    text-decoration: none;
+    flex-direction: row;
+    position: relative;
+    background-color: #FE6A13;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    transition: all .3s linear;
+    z-index: 1;
+    color: #fff;
+    border: 2px solid #FE6A13;
+}

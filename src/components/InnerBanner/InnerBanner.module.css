@@ -1,0 +1,40 @@
+.page_container {
+    padding: 0.5rem 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.innerBanner{
+  position: relative;
+ 
+}
+
+.innerBannerImg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.innerBannerContent{
+  z-index: 1;
+  color: #9c9d9d;
+   padding: 45px 0;
+   background-color: rgba(0,0,0,0.5);
+}
+
+.innerBannerContent h1{
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+}
+
+.innerBannerContent p{
+  margin-bottom: 20px;
+}

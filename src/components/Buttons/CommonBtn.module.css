@@ -1,0 +1,59 @@
+.commonBtn,
+.commonBtn_border {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-family: Jost, Sans-serif;
+  box-shadow: none;
+  text-decoration: none;
+  flex-direction: row;
+  position: relative;
+  background-color: #FE6A13;
+  overflow: hidden;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  transition: all .3s linear;
+  z-index: 1;
+  color: #fff;
+  border: 2px solid #FE6A13;;
+}
+
+.commonBtn:hover,
+.commonBtn_border:hover{
+  color: #FE6A13;
+}
+
+.commonBtn:before,
+.commonBtn_border::before {
+    -webkit-transition-duration: .6s;
+    transition-duration: .6s;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    content: "";
+    top: 110%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: -1;
+    background: #fff;
+}
+
+.commonBtn:hover:before,
+.commonBtn_border:hover:before {
+    top: -40%;
+}
+
+
+.commonBtn_border{
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
