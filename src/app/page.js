@@ -103,7 +103,7 @@ export default function Home() {
           <div className={`${classes.titleDiv} ${classes.text_center}`}>
             <p className={classes.titleTag}>Why Crevish?</p>
             <h2 className={classes.mainTitle}>Why People Choose us?</h2>
-            <p>Crevish is a platform for foodies to share their favorite recipes with the world. It's a place to discover new dishes, and to connect with other food lovers. Crevish is a place to discover new dishes, and to connect with other food lovers.</p>
+            <p>Crevish is a platform for foodies to share their favorite recipes with the world. Its a place to discover new dishes, and to connect with other food lovers. Crevish is a place to discover new dishes, and to connect with other food lovers.</p>
             <span className={classes.verBorder}></span>
           </div>
             <div className={classes.page_row}>
