@@ -11,7 +11,7 @@ export function middleware(request){
     const token = request.cookies.get('token')?.value || '';
 
     if(isPathPublic && token){
-        return NextResponse.redirect(new URL('/meals', request.nextUrl));
+        return NextResponse.redirect(new URL('/meals/share', request.nextUrl));
     }
 
     if(!isPathPublic && !token){
@@ -27,7 +27,7 @@ export const config = {
         '/profile',
         '/login',
         '/signup',
-        '/meals'
+        '/meals/share'
     ]
 }
 

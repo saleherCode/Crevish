@@ -5,11 +5,10 @@ import Link from "next/link";
 import Image from "next/image";
 import LogoImg from '../../assets/logo-2.png';
 import classes from './MainHeader.module.css';
-import MainHeaderBackground from "./MainHeaderBackground";
-import { usePathname } from "next/navigation";
 import NavLink from "./NavLink";
 import LogoutLink from "../LogoutLink/LogoutLink";
 import { useState, useEffect } from "react";
+import navIcon from "../../assets/bars.png"
 
 export default function MainHeader(req){
 
@@ -38,6 +37,10 @@ export default function MainHeader(req){
                 <Image src={LogoImg} alt="" priority />
                 {/* Cravish */}
             </Link>
+            <input type="checkbox" id="navCheck" className={classes.navCheck} />
+            <label htmlFor="navCheck" className={classes.menuIcon}>
+                <Image src={navIcon} alt="" priority />
+            </label>
             <nav className={classes.nav}>
                 <ul>
                     <li><NavLink href="/meals">Browse Meal</NavLink></li>
