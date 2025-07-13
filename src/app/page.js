@@ -8,8 +8,6 @@ import work_img1 from '../assets/banner-img-2.jpg';
 
 import facebook from '../assets/facebook.png';
 import instagram from '../assets/instagram.png';
-// import facebook from '../assets/facebook.png';
-// import facebook from '../assets/facebook.png';
 
 import featureImg1 from '../assets/feature-img-1.jpg';
 import featureImg2 from '../assets/feature-img-2.jpg';
@@ -49,16 +47,16 @@ export default function Home() {
             <div>
               <ul className={classes.socailLinks}>
                 <li>
-                  <a href="#"><Image src={facebook} className="w-full"/></a>
+                  <a href="#"><Image alt="slider-img" src={facebook} /></a>
                 </li>
                 <li>
-                  <a href="#"><Image src={instagram} className="w-full"/></a>
+                  <a href="#"><Image alt="slider-img" src={instagram} /></a>
                 </li>
                 <li>
-                  <a href="#"><Image src={facebook} className="w-full"/></a>
+                  <a href="#"><Image alt="slider-img" src={facebook} /></a>
                 </li>
                 <li>
-                  <a href="#"><Image src={facebook} className="w-full"/></a>
+                  <a href="#"><Image alt="slider-img" src={facebook} /></a>
                 </li>
               </ul>
             </div>
@@ -66,13 +64,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={`${classes.section} ${classes.how_it_works}`}>
+      <section className={`${classes.section} ${classes.how_it_works}`}> 
           <div className={classes.page_container}>
               <div className={classes.page_row}>
                   <div className={classes.col_3}>
                       <div className={classes.imageBorder}>
-                          <figure><Image src={featureImg1} className="w-full"/></figure>
-                          <figure><Image src={featureImg2} className="w-full"/></figure>
+                          <figure><Image alt="img" src={featureImg1} className="w-full"/></figure>
+                          <figure><Image alt="img" src={featureImg2} className="w-full"/></figure>
                       </div>
                   </div>
                   <div className={classes.col_6}>
